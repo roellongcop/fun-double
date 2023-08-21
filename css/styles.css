@@ -1,0 +1,403 @@
+:root {
+    /** Font default */
+    --font-default: 'Poppins', sans-serif;
+    --font-size-default: 16px;
+    --font-color-default: #5E5E5E;
+    --font-color-white: #FFFFFF;
+    /** Use for input, button, and any other element */
+    --primary: #9D82FF;
+    --secondary: #9842E3;
+    --dark: #1A1A1A;
+    --black: #000000;
+    --default-transition: .3s cubic-bezier(.4,0,.2,1);
+}
+
+/***** Reset ****/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, tt, var, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+area,
+img,
+map {
+	outline:none;
+}
+/* Helpers */
+.clearfix,
+.clear {
+	clear:both;
+}
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+html,
+body {
+	-webkit-text-size-adjust:none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+	opacity: 1;
+    color: inherit;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	opacity: 1;
+    color: inherit;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    opacity: 1;
+	color: inherit;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    opacity: 1;
+	color: inherit;
+}
+input,
+textarea,
+button,
+select {
+    border-radius: 0;
+    font-family:inherit;
+}
+textarea {
+    resize: vertical;
+}
+a{
+	outline: none;
+}
+
+
+/***** Global ****/
+
+body{
+    font-family: var(--font-default);
+    font-size: var(--font-size-default);
+    background: #FFFFFF;
+    color: var(--font-color-default);
+    margin: 0;
+
+    /* Remove the comment from line 85 to 86 if the font issue in safari occurs */
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+
+/***** Header ****/
+header.fundouble-header {
+    background: #3A11ABB8;
+    position: sticky;
+    top: 0;
+    margin-top: -99px;
+    z-index: 99;    
+}
+
+.header-container {
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.header-container nav {
+    height: 99px;
+}
+
+.header-container nav ul li a.nav-link {
+    color: #ffffff !important;
+    font-size: 17px;
+    height: 99px;
+    display: flex;
+    align-items: center;    
+}
+
+.header-container nav ul li a.nav-link:hover {
+    background: #AF68FF; 
+}
+
+/***** Footer ****/
+
+#main-footer {
+    background: var(--dark);
+    color: var(--font-color-white);
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1550px;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 0;
+    margin: auto;
+}
+
+.footer-container .footer-logo {
+    width: 20%;
+}
+
+.footer-container .footer-mixedlogo {
+    width: 60%;
+}
+
+.footer-contacts .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-contacts .contact-item img {
+    margin-right: 20px;
+}
+
+#main-footer .footer-copyright {
+    background: var(--black);
+    color: var(--font-color-default);
+    font-size: var(--font-size-default);
+    text-align: center;
+    padding: 25px 0;
+}
+
+/***** Hero Slider ****/
+.slick-slide img {
+    display: block;
+    margin: 0 auto;
+}
+
+section.slider .primary {
+    background: #A37DFF;
+    padding-bottom: 30px;
+    margin-bottom: -260px;
+}
+
+.slick-dots {
+    bottom: -20px !important;
+}
+
+.slick-dots li {
+    margin: 0 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #9d82ff;
+    background: #9d82ff;
+    border-radius: 50%;
+    border: 1px solid #9d82ff;
+}
+
+.slick-dots li button:before {
+    content: '' !important;
+    opacity: .75 !important;
+    color: #000;
+    border: 1px solid #909090;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;    
+}
+
+/***** About ****/
+
+section.fundouble-about {
+    padding: 100px 0 0 0;
+}
+
+.fundouble-about .about-container {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.about-header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.about-details {
+    display: flex;
+}
+
+.about-item {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.about-description {
+    width: 80%;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+/***** Industry ****/
+section.industry {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.industry-container {
+    width: 1640px;
+    margin: 0 auto;
+}
+
+.industry-text {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.industry-logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1640px;
+    margin: 0 auto;
+}
+
+.industry-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    width: 15.6%;
+    height: auto;
+    border-radius: 18px;
+    border: 2px solid #9D82FF;
+    padding: 20px;
+    margin: 12px 8px;
+ 
+}
+
+/***** Call To Action ****/
+
+section.call-to-action {
+    background: url('../assets/images/waveabs.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    padding-bottom: 122px;
+}
+
+section.call-to-action .cta-container {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.cta-container .cta-icon {
+    background: #ffffff;
+    width: 198px;
+    height: 198px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 50%;
+    padding: 37px;
+    margin-top: -180px;
+    margin-bottom: 64px;
+}
+
+.cta-container .cta-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.cta-container .cta-text {
+    color: #ffffff;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+/***** Benefits ****/
+
+section.benefits {
+    padding: 100px 0;
+}
+section.benefits .benefits-container {
+    max-width: 1364px;
+    margin: 0 auto;
+}
+
+.benefits-container .benefits-item {
+    border: 1px solid #9D82FF;
+    border-radius: 42px;
+    padding: 44px 30px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.benefits-item .benefits-img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-item  .benefits-details {
+    width: 80%;
+}
+
+
+
+.benefits-container .benefits-item:last-child {
+    margin: 0;
+}
+
+
+.benefits-details .benefits-description {
+    line-height: 1.5em;
+}
+
+.benefits-details .benefits-description ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.benefits-details .benefits-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
