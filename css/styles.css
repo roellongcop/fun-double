@@ -454,3 +454,50 @@ section.benefits .benefits-container {
 .game-item-link img {
     display: block;
 }
+
+
+
+.hero-section {
+    background: url('../assets/images/banner.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 630px;
+}
+
+
+section.solutions {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.solutions-item {
+    width: 400px;
+    border: 1px solid #31CECE;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 15px 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.solutions-item img {
+    height: 120px;
+}
+
+.solutions-item h3 {
+    font-size: 22px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.solutions-item p {
+    font-size: 15px;
+    line-height: 1.5em;
+}
