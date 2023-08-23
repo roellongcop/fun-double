@@ -92,8 +92,14 @@ select {
 textarea {
     resize: vertical;
 }
-a{
-	outline: none;
+a {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+a:hover, a:focus, .slick-slide, .slick-slide a {
+    outline: none;
+    text-decoration: none;
 }
 
 
@@ -381,7 +387,6 @@ section.benefits .benefits-container {
 }
 
 
-
 .benefits-container .benefits-item:last-child {
     margin: 0;
 }
@@ -400,4 +405,52 @@ section.benefits .benefits-container {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 35px;
+}
+
+
+/***** Games ****/
+
+
+.games-nav {
+    background: #A37DFF;
+}
+
+.games-nav ul.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-nav li.nav-item a {
+    color: #ffffff;
+    font-size: 17px;    
+    display: block;    
+    padding: 15px 25px;
+}
+
+.games-nav li.nav-item a:hover {
+    background: #9842E3;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;    
+    width: 1640px;
+
+}
+
+
+.games-item {
+    width: calc(20% - 15px);
+    border: 1px solid #707070;
+    border-radius: 25px;
+    margin: 15px 0 0 15px;
+    overflow: hidden;
+}
+
+.game-item-link img {
+    display: block;
 }
