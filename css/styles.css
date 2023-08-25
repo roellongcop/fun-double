@@ -453,8 +453,12 @@ section.benefits .benefits-container {
 
 .game-item-link img {
     display: block;
+    transition: .3s ease;
 }
 
+.games-item:hover a img {
+    transform: scale(1.2);
+}
 
 
 .hero-section {
