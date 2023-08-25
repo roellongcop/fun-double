@@ -445,19 +445,23 @@ section.benefits .benefits-container {
 
 .games-item {
     width: calc(20% - 15px);
-    border: 1px solid #707070;
+/*    border: 1px solid #707070;*/
     border-radius: 25px;
     margin: 15px 0 0 15px;
     overflow: hidden;
 }
 
+
+
 .game-item-link img {
     display: block;
     transition: .3s ease;
+    border-radius: 25px;
+    border: 1px solid #707070;
 }
 
 .games-item:hover a img {
-    transform: scale(1.2);
+    transform: scale(0.9);
 }
 
 
