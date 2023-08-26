@@ -122,6 +122,7 @@ main#about-container {
 /***** Header ****/
 header.fundouble-header nav {
     background: #3A11ABB8;
+    padding: 0;
 }
 
 header.fundouble-header .header-container {
