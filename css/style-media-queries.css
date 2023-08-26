@@ -1,0 +1,506 @@
+/***** 22" Desktop *****/
+
+@media  screen and (max-width: 1680px) {
+
+	.header-container,
+	.about-container,
+	.industry-container,
+	.games-container {
+	    width: 100% !important;
+	    max-width: 100% !important;
+	    padding: 0 50px !important;
+	}
+
+	.industry-logo-container,
+	.benefits-container,
+	.footer-container,
+	.box-card-container,
+	.features-container,
+	.about-us-container,
+	.solutions-container {
+	    width: 100% !important;
+	    max-width: 100% !important;
+	}
+
+	.benefits-container,
+	.about-us-container {
+	    padding: 0 150px !important;
+	}
+
+	.box-card-container,
+	.solutions-container {
+    	padding: 0 220px !important;
+	}
+
+	.features-container {
+		padding: 0 210px !important;
+	}	
+
+	.games-container {
+		padding-bottom: 100px !important;
+	}
+
+	.box-card-item,
+	.solutions-item {
+		width: calc(33.33% - 20px);
+	}
+
+	section.features {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.features-item {
+		width: calc(50% - 50px);
+	}
+
+	.footer-container {
+		padding: 65px 50px;
+
+	}
+
+}
+
+@media  screen and (max-width: 1440px) {
+
+	.box-card-container,
+	.solutions-container {
+    	padding: 0 160px !important;
+	}
+
+	.features-container {
+		padding: 0 150px !important;
+	}		
+
+	.features-item {
+	    height: 200px;	
+	}
+
+	.item-img {
+	    width: 25%;
+	}
+
+	.item-details {
+	    width: 75%;
+	}	
+
+	.about-us-img img {
+	    height: 410px;
+	    object-fit: cover;
+	}	
+
+}
+
+/***** 19" Desktop *****/
+@media  screen and (max-width: 1024px) {
+ 
+	.about-container,
+	.industry-container,
+	.benefits-container,
+	.box-card-container,
+	.features-container,
+	.about-us-container,
+	.solutions-container,
+	.games-container {
+		padding: 0 30px !important;
+	}
+
+	.header-container {
+		padding: 0 18px !important;
+	}
+
+	nav .header-container .text-end {
+		display: none;
+	}
+
+	nav .header-container .navbar-collapse {
+		justify-content: end !important;
+	}
+
+	section.slider .primary {
+	    background: #A37DFF;
+	    padding-bottom: 30px;
+	    margin-bottom: -180px;
+	}
+
+	section.slider .primary .slick-slide img {
+	    display: block;
+	    height: 500px;
+	    object-fit: cover;
+	}
+
+	.games-container {
+		padding-bottom: 100px !important;
+	}
+
+	.games-nav ul.nav-container {
+	    flex-wrap: wrap;
+	}
+
+	.industry-item {
+		width: calc(20% - 16px);
+	}
+
+	section.call-to-action {
+		padding-left: 50px;
+	    padding-right: 50px;
+	}
+
+	.games-item {
+    	width: calc(25% - 16px);
+	}
+
+	.features-item {
+	    height: 230px;	
+	}	
+
+	.item-img {
+	    width: 30%;
+	}
+
+	.item-details {
+	    width: 70%;
+	}	
+
+	.footer-container {
+		padding: 65px 30px !important;
+
+	}
+
+	.footer-container .footer-mixedlogo {
+		padding-left: 50px;
+    	padding-right: 50px;
+    	width: 55%;
+	}
+
+	.footer-contacts {
+		width: 25%;
+	}
+
+}
+
+/***** Tablet *****/
+@media  screen and (max-width: 991px) {
+
+	nav .header-container img.logo {
+	    padding-top: 10px !important;
+	    padding-bottom: 10px !important;
+	}
+
+	nav .header-container ul.navbar-nav {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	nav .header-container .navbar-nav a.nav-link {
+	    justify-content: center;
+	    height: 50px;    	
+	}
+
+	nav .header-container button.navbar-toggler {
+	    border: 1px solid #ffffff;
+	}
+
+	nav .header-container span.navbar-toggler-icon {
+		  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+
+	nav .header-container .navbar-nav .mob-only {
+   		display: flex !important;
+	}	
+
+
+	nav .header-container .navbar-nav .dropdown.mob-only {
+		display: block !important;
+	}
+
+	.navbar-nav .dropdown-menu {
+	    position: static;
+	    background: transparent;
+	    border: 0;
+	}
+
+	.navbar-nav .dropdown-menu a.dropdown-item {
+		color: #ffffff;
+	    text-align: center;
+	    padding: 10px;
+	}
+
+	.navbar-nav .dropdown-menu a.dropdown-item:hover,
+	.navbar-nav .dropdown-menu a.dropdown-item:active,
+	.navbar-nav .dropdown-menu a.dropdown-item:focus {
+		background: #AF68FF !important;
+	}	
+
+
+  	.hero-section {
+  		height: 500px;
+  	}	
+
+ 	.about-details {
+		display: flex;
+		flex-wrap: wrap;
+ 	}
+
+	.about-item {
+	    width: 100%;
+	}	
+
+	.industry-item {
+    	width: calc(25% - 16px);
+	}	
+
+	.features-item {
+	    height: auto;
+	    width: 100%;
+	    margin: 15px 0;
+	    padding: 30px;
+	}	
+
+	.item-img {
+	    width: 17%;
+	}
+
+	.item-details {
+	    width: 83%;
+	}		
+
+	.solutions-item {
+	    width: calc(50% - 20px);
+	}	
+
+	.footer-contacts {
+		width: 35%;
+	}	
+
+}
+
+/***** Tablet *****/
+@media  screen and (max-width: 768px) {
+
+	.industry-item,
+	.games-item {
+    	width: calc(33.33% - 16px);
+	}	
+
+	.benefits-container .benefits-item {
+		align-items: flex-start;
+	}
+
+	.benefits-item .benefits-details {
+	    padding: 0 20px;
+	}
+
+	.box-card-item {
+		padding: 50px;
+	    width: 100%;
+	}
+
+	.box-card-item img {
+		height: 100px;
+	}
+
+	.about-us-details {
+	    flex-direction: column;
+	}
+
+	.about-us-container {
+	    padding: 100px 50px !important;
+	}
+
+	.about-us-img {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+
+	.about-us-img img {
+	    height: auto;
+	}
+
+	.about-us-text {
+	    line-heighT: 1.5em;
+	    width: 100%;
+	    padding: 0;
+	    text-align: center;
+	}
+
+	.about-us-header {
+	    text-align: center;
+	}	
+
+	.footer-container .footer-mixedlogo {
+		padding-left: 30px;
+    	padding-right: 30px;
+		width: 44%;
+	}
+
+	.footer-contacts {
+    	width: 36%;
+	}
+
+}
+
+ /***** Mobile *****/
+
+@media  screen and (max-width: 600px) { 
+
+  	.hero-section {
+  		height: 400px;
+  	}
+
+	section.slider .primary {
+	    margin-bottom: -90px;
+	}
+
+	section.slider .primary .slick-slide img {
+	    height: 250px;
+	}
+
+	.about-item {
+	    flex-direction: column;
+	}
+
+	.about-item,
+	.about-description {
+		padding: 0;
+	    text-align: center;	
+		width: 100%;
+	}
+
+	.about-item {
+	    margin-bottom: 50px;
+	}
+
+	.about-item:last-child {
+	    margin: 0;
+	}	
+
+	.about-img {
+		padding: 25px;
+    	margin-bottom: 20px;
+    	width: 100px;
+    	height: 100px;
+
+	}
+
+	.industry-item {
+	    padding: 15px;	
+	    width: calc(50% - 16px);
+	}
+
+	.cta-container .cta-icon {
+		width: 150px;
+	    height: 150px;
+	}
+
+	section.call-to-action {
+	    padding-bottom: 100px;
+	}
+
+	.benefits-container .benefits-item {
+	    flex-direction: column;
+	}
+
+	.benefits-item .benefits-img,
+	.benefits-item .benefits-details {
+		width: 100%;
+	}
+
+	.benefits-item .benefits-details {
+	    padding: 0;
+	}
+
+	.benefits-img,
+	.benefits-details .benefits-title {
+	    margin-bottom: 30px;
+	}
+
+	.benefits-details .benefits-title {
+	    text-align: center;
+	}
+
+	.benefits-img img {
+    	width: 80px;
+	}
+
+	.benefits-details .benefits-description {
+		text-align: center;
+	}
+
+	.benefits-details .benefits-description ul li {
+		text-align: left;
+	}
+
+	.games-item {
+    	width: calc(50% - 16px);
+	}	
+
+	.box-card-item img {
+	    height: 80px;
+	}	
+
+	.features-item {
+	    display: flex;
+	    flex-direction: column;
+	}	
+
+	.item-img {
+	    width: 100%;
+	    display: flex;
+	    justify-content: center;
+    	margin-bottom: 30px;
+	}	
+
+	.item-details {
+	    width: 100%;
+	    text-align: center;
+	}	
+
+	.solutions-item {
+	    width: calc(100% - 20px);
+	}	
+
+	.footer-container {
+	    flex-direction: column;	
+	}
+
+	.footer-container .footer-logo,
+	.footer-mixedlogo,
+	.footer-contacts {
+	    width: 100% !important;
+	    margin: 20px 0;
+	}
+
+	.footer-logo {
+	    text-align: center;
+	    margin-top: 0 !important;
+	}
+
+	.footer-logo img {
+	    width: 50%;
+	}
+
+	.footer-container .footer-mixedlogo {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
+	.footer-contacts {
+		margin-bottom: 0;
+	}
+
+	.footer-contacts .contact-item {
+	    justify-content: center;
+	}
+
+	.footer-contacts .contact-item:last-child {
+		margin: 0;
+	}
+
+	.footer-contacts .contact-item img {
+   		margin-right: 10px;
+	}
+
+}
+
+
