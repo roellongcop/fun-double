@@ -2,10 +2,14 @@
    slidesToShow: 1,
    slidesToScroll: 1,
    arrows: false,
-   infinite: false
+   infinite: false,
+   lazyLoad: 'ondemand',
+   autoplaySpeed: 3000,
+   autoplay: true,
  };
 
  var slickNavigator = {
+  lazyLoad: 'ondemand',
    slidesToShow: 1	,
    slidesToScroll: 1,
    asNavFor: '.navsss',
@@ -14,8 +18,9 @@
    focusOnSelect:true,
    centerMode: false,
    infinite: false,
-     fade: true,
-
+   fade: true,
+   autoplaySpeed: 3000,
+   autoplay: true,
  };
 
 
