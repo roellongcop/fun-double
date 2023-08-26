@@ -139,7 +139,9 @@ nav.header-container  .navbar-nav a.nav-link {
     font-size: 17px;
     height: 99px;
     display: flex;
-    align-items: center;    
+    align-items: center;  
+    padding-left: 20px;
+    padding-right: 20px;      
 }
 
 nav.header-container  .navbar-nav a.nav-link:hover,
