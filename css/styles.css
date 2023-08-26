@@ -153,6 +153,11 @@ nav.header-container .navbar-nav .mob-only {
     display: none !important;
 }
 
+
+nav.header-container .text-end a.dropdown-item {
+    padding: 10px 20px;
+}
+
 .fundouble-header .text-end {
     text-align: right!important;
     display: flex;
