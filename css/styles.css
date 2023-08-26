@@ -134,7 +134,7 @@ header.fundouble-header nav.header-container {
     padding: 0;    
 }
 
-nav.header-container  .navbar-nav a.nav-link {
+nav.header-container .navbar-nav a.nav-link {
     color: #ffffff !important;
     font-size: 17px;
     height: 99px;
@@ -144,9 +144,13 @@ nav.header-container  .navbar-nav a.nav-link {
     padding-right: 20px;      
 }
 
-nav.header-container  .navbar-nav a.nav-link:hover,
-nav.header-container  .navbar-nav a.nav-link.active  {
+nav.header-container .navbar-nav a.nav-link:hover,
+nav.header-container .navbar-nav a.nav-link.active  {
     background: #AF68FF; 
+}
+
+nav.header-container .navbar-nav .mob-only {
+    display: none !important;
 }
 
 .fundouble-header .text-end {
@@ -166,6 +170,13 @@ nav.header-container  .navbar-nav a.nav-link.active  {
 
 .fundouble-header .contact-us img {
     margin-right: 10px;
+}
+
+.fundouble-header .dropdown button {
+    padding: 6px 10px;
+    background: transparent;
+    border: 1px solid transparent;
+    margin-left: 20px;
 }
 
 /***** Footer ****/
