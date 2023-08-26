@@ -3,8 +3,8 @@
    slidesToScroll: 1,
    arrows: false,
    infinite: true,
-   autoplaySpeed: 3000,
-   autoplay: true,
+   // autoplaySpeed: 3000,
+   // autoplay: true,
  };
 
  var slickNavigator = {
