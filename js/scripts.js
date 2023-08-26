@@ -2,7 +2,10 @@
    slidesToShow: 1,
    slidesToScroll: 1,
    arrows: false,
-   infinite: false
+   autoplay: true,
+   autoplaySpeed: 3000,
+   swipeToSlid: false,
+   swipe: false
  };
 
  var slickNavigator = {
@@ -12,12 +15,13 @@
    speed: 500,
    dots: true,
    focusOnSelect:true,
+   pauseOnHover: false,
    centerMode: false,
-   infinite: false,
-     fade: true,
+   fade: true,
+   autoplay: true,
+   autoplaySpeed: 3000
 
  };
-
 
 $('.primary').slick(slickPrimarySecondary);
 $('.navigator').slick(slickNavigator)

@@ -12,34 +12,35 @@
     <link rel="stylesheet" href="css/style-media-queries.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>	
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.css"/>
-
 </head>
 <body>
-
 <header class="fundouble-header">
-	<div class="header-container">
-		<nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-	      <div class="col-md-3 mb-2 mb-md-0">
-	        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-	         <img src="assets/images/logo.svg" class="img-fluid">
-	        </a>
-	      </div>
-	      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-	        <li><a href="#" class="nav-link link-secondary">Home</a></li>
-	        <li><a href="#" class="nav-link">Games</a></li>
-	        <li><a href="#" class="nav-link">Suite</a></li>
-	        <li><a href="#" class="nav-link">About Us</a></li>
-	      </ul>
-
-	      <div class="col-md-3 text-end">
-	        <button type="button" class="btn btn-outline-primary me-2">Login</button>
-	        <button type="button" class="btn btn-primary">Sign-up</button>
-	      </div>
-	    </nav>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top header-container">
+		<div class="container-fluid">
+			<div class="col-md-3 mb-2 mb-md-0">
+				<a href="home.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+					<img src="assets/images/logo.svg" class="img-fluid logo">
+				</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="col-md-auto justify-content-center navbar-collapse collapse" id="navbarText" style="">
+				<ul class="navbar-nav">
+					<li><a href="home.html" class="nav-link">Home</a></li>
+					<li><a href="games.html" class="nav-link active">Games</a></li>
+					<li><a href="suite.html" class="nav-link">Suite</a></li>
+					<li><a href="about-us.html" class="nav-link">About Us</a></li>
+				</ul>
+			</div>
+				<div class="col-md-3 text-end">
+					<button type="button" class="btn btn-primary contact-us"><img src="assets/images/icons/telegram.png" class="img-fluid">Contact Us</button>
+					<button type="button" class="btn btn-primary">Sign-up</button>
+				</div>
+		</div>
+	</nav>
 </header>
-
-
-<main>
+<main id="game-container">
 	<section class="slider">
 		<div class="primary navsss">
 			<div><img src="assets/images/b-1.png" class="img-fluid"></div>
@@ -56,20 +57,19 @@
 			<div><img src="assets/images/b-2.png" class="img-fluid"></div>
 		</div>
 	</section>
-
 	<section class="games">
 		<div class="games-nav">
 			<ul class="nav-container">
-				<li class="nav-item"><a href="#">All</a></li>
-				<li class="nav-item"><a href="#">Pragmatic</a></li>
-				<li class="nav-item"><a href="#">Evolution</a></li>
-				<li class="nav-item"><a href="#">BBTech</a></li>
-				<li class="nav-item"><a href="#">CQ9</a></li>
-				<li class="nav-item"><a href="#">Playtech</a></li>
-				<li class="nav-item"><a href="#">Microgaming</a></li>
-				<li class="nav-item"><a href="#">NetEnt</a></li>
-				<li class="nav-item"><a href="#">Gameplay</a></li>
-				<li class="nav-item"><a href="#">PG Soft</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">All</a></li>
+				<li class="nav-item"><a href="#" class="nav-link active">Pragmatic</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Evolution</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">BBTech</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">CQ9</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Playtech</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Microgaming</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">NetEnt</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Gameplay</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">PG Soft</a></li>
 			</ul>
 		</div>
 		<div class="games-container">
@@ -126,7 +126,6 @@
 	
 		</div>	
 	</section>
-
 </main>
 <footer id="main-footer">
 	<div class="footer-container">
@@ -147,12 +146,9 @@
 	</div>		
 	<div class="footer-copyright">FunFunCorp &reg; | All rights reserved.</div>
 </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.js"></script>
- 	<script type="text/javascript" src="js/scripts.js"></script>
-
-  </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
