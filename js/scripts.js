@@ -3,13 +3,11 @@
    slidesToScroll: 1,
    arrows: false,
    infinite: true,
-   lazyLoad: 'ondemand',
    autoplaySpeed: 3000,
    autoplay: true,
  };
 
  var slickNavigator = {
-  lazyLoad: 'ondemand',
    slidesToShow: 1	,
    slidesToScroll: 1,
    asNavFor: '.navsss',
