@@ -2,7 +2,7 @@
    slidesToShow: 1,
    slidesToScroll: 1,
    arrows: false,
-   infinite: true,
+   // infinite: true,
    // autoplaySpeed: 3000,
    // autoplay: true,
  };
