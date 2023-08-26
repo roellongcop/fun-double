@@ -21,3 +21,5 @@
 
 $('.primary').slick(slickPrimarySecondary);
 $('.navigator').slick(slickNavigator)
+
+$('.d-none').removeClass('d-none')

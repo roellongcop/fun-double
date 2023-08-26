@@ -140,7 +140,14 @@ header.fundouble-header {
     font-size: 17px;
     height: 99px;
     display: flex;
+<<<<<<< Updated upstream
     align-items: center;    
+=======
+    align-items: center;  
+    padding-left: 20px;
+    padding-right: 20px;    
+    justify-content: center;  
+>>>>>>> Stashed changes
 }
 
 .header-container nav ul li a.nav-link:hover {
@@ -444,10 +451,15 @@ section.benefits .benefits-container {
 
 
 .games-item {
+<<<<<<< Updated upstream
     width: calc(20% - 15px);
 /*    border: 1px solid #707070;*/
     border-radius: 25px;
     margin: 15px 0 0 15px;
+=======
+    width: calc(20% - 16px);
+    margin: 10px 8px;
+>>>>>>> Stashed changes
     overflow: hidden;
 }
 
@@ -456,8 +468,13 @@ section.benefits .benefits-container {
 .game-item-link img {
     display: block;
     transition: .3s ease;
+<<<<<<< Updated upstream
     border-radius: 25px;
     border: 1px solid #707070;
+=======
+    border: 1px solid #707070;
+    border-radius: 25px;
+>>>>>>> Stashed changes
 }
 
 .games-item:hover a img {
@@ -814,4 +831,12 @@ section.features {
 
 main.page-suite section.industry {
     padding: 100px 0;
+}
+
+.navbar-nav li {
+    min-width: 120px;
+    text-align: center;
+}
+.d-none {
+    display: none;
 }
